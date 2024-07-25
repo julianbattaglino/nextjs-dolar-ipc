@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a span {
+  color: rgba(18, 91, 139, 1);
+}
+
+body {
+  background-color: #ECEBDF;
+}
+
+
+table td, table th {
+  padding: 10px 50px; /* Ajusta el valor según el espacio deseado */
+}
+
+.dolar-container {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-text {
+  font-weight: 900;
+  background: linear-gradient(90deg, rgba(18, 91, 139, 1) 0%, rgb(82, 126, 155) 25%), rgb(101, 129, 147) 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+}
+
+
+
+  .dolar-card {
+    transform: scale(0.98);
+    transition: all 0.3s;
+  }
+  .dolar-card:hover {
+    transform: scale(1);
+  }
+
+  @media (max-width: 991px){
+  	table td, table th {
+      text-align: left;
+      padding: 10px 30px; /* Ajusta el valor según el espacio deseado */
+    }
+  }
