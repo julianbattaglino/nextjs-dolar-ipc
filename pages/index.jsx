@@ -2,7 +2,7 @@ import DolarData from "@/components/DolarData"
 import Head from "next/head";
 
 
-const title = "Dolar Api Argentina"
+const title = "Cotizacion Dolar Argentina"
 
 export default function Home() {
   return (
