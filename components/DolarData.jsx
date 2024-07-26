@@ -25,7 +25,7 @@ const DolarData = () => {
 
         <div class="col-md-6 text-center">
 
-          <span class="text-7xl gradient-text">Dolar en Argentina.</span>
+          <span class="text-5xl md:text-7xl gradient-text">Dolar en Argentina.</span>
         </div>
 
 
